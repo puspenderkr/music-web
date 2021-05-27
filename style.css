@@ -4,7 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5), #a3e974), url(bg1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5), #a3e974), url(images/bg1.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -31,6 +31,7 @@
 
 .banner-text p{
     font-size: 20px;
+    font-weight: bold;
     font-style: italic;
 
 }
@@ -93,11 +94,12 @@
 .banner-btn a{
     width: 150px;
     text-decoration: none;
+    font-weight: bold;
     display: inline-block;
     margin: 0 10px;
     padding: 12px 0;
-    color: #fff;
-    border: 0.5px solid #fff;
+    color: black;
+    border: 0.5px solid black;
     position: relative;
     z-index: 1;
     transition: color 0.5s;
@@ -222,7 +224,7 @@ nav ul li a{
     
 }
 .musicnoot{
-    background: url(mplay.png);
+    background: url(images/mplay.png);
     background-size: cover;
     background-position: center;
     display: flex;
@@ -545,13 +547,19 @@ hr{
 }
 .social-link .fa:hover{
     background: #a3e974;
-    color: #fff;
+    color: black;
     transform: translateY(-7px);
 
 }
 .social-link p{
     font-size: 12px;
     margin-top: 20px;
+}
+.social-link span{
+    color: rgba(255, 0, 0, 0.76);
+    font-size: 20px;
+    height: 2rem;
+    width: 2rem;
 }
 
 @media screen and (max-width:770px){
