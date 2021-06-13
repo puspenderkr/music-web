@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Puspendra Music</title>
+    <title>Puspender's Music</title>
 
-    <!-- favicon -->
-    <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+    <!-- website favicon -->
+    <link rel="icon" href="images/fav.svg" type="image/png" sizes="16x16">
 
     <!-- internal css file -->
     <link rel="stylesheet" href="style.css">
 
     <!-- scroll animation css file -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
 
     <!-- google fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -31,10 +31,10 @@
 <body>
 
     <section id="banner">
-        <img src="images/log.png" alt="logo" class="logo">
+        <img src="images/log.svg" alt="logo" class="logo">
         <div class="banner-text">
-            <h1 data-aos="fade-right" data-aos-duration="1000">Music Studio</h1>
-            <p data-aos="fade-right" data-aos-duration="1000">Rigt Music For Every Moment</p>
+            <h1 data-aos="fade-right" >Music Studio</h1>
+            <p data-aos="fade-right" >Rigt Music For Every Moment</p>
             <div class="wave">
                 <div class="loader" data-aos="fade-zoom-in-up" data-aos-duration="1000">
                     <span class="stroke"></span>
@@ -44,7 +44,7 @@
                     <span class="stroke"></span>
                 </div>
             </div>
-            <div class="banner-btn" data-aos="fade-up" data-aos-duration="1000">
+            <div class="banner-btn" >
                 <a href="#"><i class="fa fa-sign-in"></i><span></span>  Join Now</a>
                 <a href="#"><i class="fa fa-user"></i><span></span>  Start Free Trial</a>
             </div>
@@ -59,7 +59,7 @@
             <ul>
                 <li><a href="#banner">Home</a></li>
                 <li><a href="#feature">Features</a></li>
-                <li><a href="#service">Tending</a></li>
+                <li><a href="#service">Trending</a></li>
                 <li><a href="#testimonial">Testimonials</a></li>
                 <li><a href="#footer">Meet Us</a></li>
             </ul>
@@ -79,7 +79,7 @@
             <h1>Why Choose Us</h1>
         </div>
         <div class="feature-box">
-            <div class="features" data-aos="fade-right" data-aos-duration="1000">
+            <div class="features" >
                 <h1>Hunderds Of Songs</h1>
                 <div class="features-desc">
                     <div class="features-icon">
@@ -122,7 +122,7 @@
 
             </div>
             <div class="features-img">
-                <div class="musicnoot" data-aos="fade-zoom-in-up" data-aos-duration="1000">
+                <div class="musicnoot" >
 
                     <div class="noots">
                         <div class="noot-1">&#9835; &#9833;</div>
@@ -147,42 +147,86 @@
             <h1>Listen Now</h1>
         </div>
         <div class="service-box">
-            <div class="single-service" data-aos="fade-right" data-aos-duration="1000"><img src="images/lukas.jpg" alt="pic1">
+            <div class="single-service " >
+                <img src="images/lukas.jpg" alt="pic1">
                 <div class="overlay"></div>
                 <div class="service-desc">
                     <h3>Mama Said</h3>
                     <hr>
-                    <p>Song By Lukas Graham <br> Released Year: 2015 <br> Genre: Pop <br> Click Here to Play <br></p>
-                    <img src="images/play.png" alt="" id="musicIcon" value="PLAY" onclick="playAudio('mamaSaid','musicIcon')">
-                    <audio src="media/Lukas Graham - Mama Said [Official Music Video].mp3" id="mamaSaid"></audio>
+                    <p>Song By Lukas Graham <br> Released Year: 2015 <br> Genre: Pop <br> Click Below to Play and double click to pause <br></p>
+                    
+                    <div class="song" style="cursor: pointer;">1</div>
+                    
                 </div>
             </div>
-            <div class="single-service" data-aos="fade-up" data-aos-duration="1000"><img src="images/anuv.jpg" alt="pic1">
+            <div class="single-service song" >
+                <img src="images/anuv.jpg" alt="pic1">
                 <div class="overlay"></div>
                 <div class="service-desc">
                     <h3>Alag Aasmaan</h3>
                     <hr>
-                    <p>Song By Anu Jain <br> Released Year: 2015 <br> Genre: Pop <br> Click Here to Play <br></p>
-                    <img src="images/play.png" alt="" id="musicIcon2" value="PLAY" onclick="playAudio('alag','musicIcon2')">
-                    <audio src="media/Anuv Jain - ALAG AASMAAN (a song on the ukulele)" id="alag"></audio>
+                    <p>Song By Anu Jain <br> Released Year: 2015 <br> Genre: Pop <br> Click Below to Play and double click to pause <br></p>
+                    <div class="song " style="cursor: pointer;">2</div>
+                   
                 </div>
             </div>
-            <div class="single-service" data-aos="fade-up" data-aos-duration="1000"><img src="images/avcii.jpg" alt="pic1">
+            <div class="single-service song" >
+                <img src="images/avcii.jpg" alt="pic1">
                 <div class="overlay"></div>
                 <div class="service-desc">
                     <h3>Wake Me Up</h3>
                     <hr>
-                    <p>Song By Avcii <br> Released Year: 2015 <br> Genre: Pop <br> Click Here to Play <br></p>
-                    <img src="images/play.png" alt="" id="musicIcon3">
+                    <p>Song By Avcii <br> Released Year: 2015 <br> Genre: Pop <br> Click Below to Play and double click to pause <br></p>
+                    <div class="song" style="cursor: pointer;">3</div>
+                    
                 </div>
             </div>
-            <div class="single-service" data-aos="fade-left" data-aos-duration="1000"><img src="images/lewis.jpg" alt="pic1">
+            <div class="single-service song" >
+                <img src="images/lewis.jpg" alt="pic1">
                 <div class="overlay"></div>
                 <div class="service-desc">
                     <h3>Lost Someone</h3>
                     <hr>
-                    <p>Song By Lewis Capaldi <br> Released Year: 2015 <br> Genre: Pop <br> Click Here to Play <br></p>
-                    <img src="images/play.png" alt="" id="musicIcon4">
+                    <p>Song By Lewis Capaldi <br> Released Year: 2015 <br> Genre: Pop <br> Click Below to Play and double click to pause <br></p>
+                    <div class="song" style="cursor: pointer;">4</div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- music player -->
+
+    <section id="player">
+        <div class="title-text">
+            <p>Music Player</p>
+            <h1>Puspender's Playlist</h1>
+        </div>
+        <div class="main_div">
+            <div class="music_container">
+                <h2 id="title">Song Name</h2>
+                <h3 id="artist">Artist Name</h3>
+                <div class="img_container">
+                    <img class="imgplayer" src="images2/Alag Aasmaan.jpg" alt="">
+                </div>
+                <audio src="music/Alag Aasmaan.mp3"></audio>
+    
+                <!-- progress bar -->
+                <div class="progressbar_container" id="progress_container">
+                    <div class="progress_duration_meter">
+                        <div id="current_time">0:00</div>
+                        <div id="duration">2:40</div>
+                    </div>
+                    <div class="progress_div" id="progress_div">
+                        <div class="progress" id="progress"></div>
+                    </div>
+                </div>
+    
+                <!-- controls -->
+                <div class="music_control">
+                    <i class="fa fa-backward" id="prev" title="Previous"></i>
+                    <i class="fa fa-play main_button" id="play" title="Play"></i>
+                    <i class="fa fa-forward" id="next" title="Next"></i>
                 </div>
             </div>
         </div>
@@ -195,7 +239,7 @@
             <p>TESTIMONIAL</p>
             <h1>What People Says</h1>
         </div>
-        <div class="testimonial-row" data-aos="fade-up" data-aos-duration="1000">
+        <div class="testimonial-row" >
             <div class="testimonial-col">
                 <div class="user">
                     <img src="images/user1.jpg" alt="user1">
@@ -243,19 +287,19 @@
             <h1>Visit Us Today</h1>
         </div>
         <div class="footer-row">
-            <div class="footer-left" data-aos="fade-right" data-aos-duration="1000">
-                <h1>Puspendra's Music.</h1>
+            <div class="footer-left" >
+                <h1>Puspender's Music.</h1>
                 <p><i class="fa fa-music"></i> 1 Month Free Trial</p>
                 <p><i class="fa fa-music"></i>Hundreds Of Songs </p>
             </div>
-            <div class="footer-right" data-aos="fade-left" data-aos-duration="1000">
+            <div class="footer-right" >
                 <h1>Get In Touch</h1>
                 <p>#30 abc, xys city IN<i class="fa fa-map-marker"></i></p>
                 <p>exmple@website.com<i class="fa fa-envelope"></i></p>
                 <p>+01 999999999<i class="fa fa-phone"></i></p>
             </div>
         </div>
-        <div class="social-link" data-aos="fade-up" data-aos-duration="1000">
+        <div class="social-link" >
             <i class="fa fa-facebook"></i>
             <i class="fa fa-instagram"></i>
             <i class="fa fa-twitter"></i>
@@ -265,70 +309,15 @@
     </section>
 
 
-    <!-------------------------------------Audio Files------------------------------------------ -->
-
-    <audio src="Avicii - Wake Me Up (Lyric Video)" type="audio.mp3" id="wakeme"></audio>
-    <audio src="Lewis Capaldi - Lost On You (Official Audio)" type="audio/mp3" id="lostOnYou"></audio>
-
-
 
     <!-- internal js file -->
 
- <!-- smooth scroll file -->
- <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+<script src="script.js"></script>
 
-    <script>
-        // side menu
-
-        var menuBtn = document.getElementById("menuBtn")
-        var sidenav = document.getElementById("sidenav")
-        var menu = document.getElementById("menu")
-
-        sidenav.style.right = "-250px";
-
-        menuBtn.onclick = function () {
-            if (sidenav.style.right == "-250px") {
-                sidenav.style.right = "0";
-                menu.src = "images/closemenu.png"
-            }
-            else {
-                sidenav.style.right = "-250px";
-
-                menu.src = "images/menu.png"
-            }
-
-        }
-
-
-
-        // smooth scroll
-
-        var scroll = new SmoothScroll('a[href*="#"]', {
-            speed: 1000,
-            speedAsDuration: true
-        });
-
-
-
-        function playAudio(audiold, icon) {
-            var audio = document.getElementById(audiold);
-            var musicIcon = document.getElementById(icon);
-            if (audio.paused) {
-                audio.play();
-                musicIcon.src = "images/pause.png";
-            }
-            else {
-                audio.pause();
-                musicIcon.src = "images/play.png";
-            }
-
-        }
-    </script>
-
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
-    </script>
+    </script> -->
 
     
 
